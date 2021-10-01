@@ -1,0 +1,72 @@
+.topbar{
+    width: 100%-300px;
+    height: 50px;
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    
+    /*padding: 10px ;*/
+    
+}
+
+.topbarWrapper{
+    
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.topLeft{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 87, 201) ;
+    cursor: pointer;
+    position: relative;
+    margin-right: 3.3cm;
+    transition: 350ms;
+}
+
+.logo.active, .logo:hover{
+    font-weight: 600;
+    font-size: 45px;
+    transition: 350ms;
+    
+    color: rgb(42, 3, 184);
+}
+
+.topRight{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    color: #555;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition: 350ms;
+}
+
+.topbarIconContainer.active, .topbarIconContainer:hover{
+    color: rgb(0, 144, 201) ;
+    transition: 350ms;
+    transform: scale(1.6);
+}

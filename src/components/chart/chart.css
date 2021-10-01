@@ -1,0 +1,27 @@
+.chart{
+    width:95%;
+    height: 340px;
+    display: flex;
+  
+
+    margin-top: 25px;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+.classTitle{
+    margin-bottom: 20px;
+}
+
+.chartItem{
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 20px 2px rgb(166, 209, 209); 
+    box-shadow: 0px 0px 20px 2px rgb(166, 209, 209);
+}
+
+

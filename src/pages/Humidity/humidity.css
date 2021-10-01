@@ -1,0 +1,21 @@
+.summary_humidity{
+    flex: 4;
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(126, 126, 126);
+    cursor: pointer;
+    background-color: rgb(253, 255, 255);
+    border-radius: 20px;
+    margin-left: 10px;
+    text-shadow: 0px 0px 2px rgba(154, 202, 255, 0.62);
+}
+
+.Humidity{
+    flex: 1;
+    padding: 0px 0px 0px 100px;
+}
+
+.barChart{
+    flex: 1;
+}
