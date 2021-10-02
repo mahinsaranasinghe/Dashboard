@@ -10,7 +10,7 @@ export default function Topbar() {
                 <div className="topLeft">
                     <div className="logo">
                         {/*<img src={process.env.PUBLIC_URL+"/Divor.png"} width="141" alt="image"></img>*/}
-                        DIVOR
+                        Divor
                     </div>   
                     
                     
